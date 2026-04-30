@@ -72,7 +72,7 @@ Banking-Fraud-Detection-SQL/
 ├── queries/
 ├── procedures/
 ├── triggers/
-├── documentation/
+├── documentation/  and assets/
 └── README.md
 ```
 
