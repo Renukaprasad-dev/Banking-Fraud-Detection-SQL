@@ -1,0 +1,93 @@
+# 🏦 Banking & Fraud Detection System - Documentation
+
+## 📌 Overview
+
+This project simulates a real-world banking system with transaction handling and fraud detection using Microsoft SQL Server.
+
+The system manages customer accounts, performs secure money transfers, and identifies suspicious transactions using SQL logic.
+
+---
+
+## 🎯 Objectives
+
+* Build a structured banking database
+* Implement safe transactions using COMMIT and ROLLBACK
+* Detect fraud using rule-based logic
+* Apply advanced SQL concepts in a real-world scenario
+
+---
+
+## 🧱 Database Design
+
+### Tables Used:
+
+1. Customers
+2. Accounts
+3. Transactions
+
+---
+
+## 🔗 Relationships
+
+* One customer can have multiple accounts
+* Each account can perform multiple transactions
+
+---
+
+## 🔁 Business Logic
+
+### Money Transfer:
+
+* Deduct amount from sender
+* Add amount to receiver
+* Record transaction
+* Use transactions (COMMIT / ROLLBACK) to ensure safety
+
+---
+
+## 🚨 Fraud Detection Logic
+
+Fraud is detected using the following rules:
+
+* Transactions above ₹50,000 are flagged
+* Multiple transactions in short time are monitored
+* Abnormal transaction patterns are identified
+
+---
+
+## ⚙️ Advanced SQL Concepts Used
+
+* Transactions (ACID properties)
+* Triggers (automatic fraud detection)
+* Stored Procedures
+* Window Functions
+* CASE statements
+
+---
+
+## 📊 Key Features
+
+* Real-time fraud detection
+* Secure transaction handling
+* Risk analysis using SQL queries
+* Structured relational database design
+
+---
+
+## 🚀 Learning Outcomes
+
+* Understood how banking systems work internally
+* Learned safe transaction handling
+* Implemented automation using triggers
+* Applied SQL in solving real-world problems
+
+---
+
+## 📌 Future Improvements
+
+* Add AI/ML-based fraud prediction
+* Introduce multi-factor authentication
+* Add user login system
+* Integrate with frontend application
+
+---
